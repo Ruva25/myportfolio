@@ -1,0 +1,338 @@
+p {
+  font-family: "regular";
+}
+
+.banner {
+  background-color: rgba(24, 24, 27, 0.481);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-image: url("./pexels-danny-meneses-943096.jpg");
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+.banner h4 {
+  color: white;
+  font-family: "bold";
+  font-size: 70px;
+  text-align: left;
+  padding-left: 20px;
+}
+.banner p {
+  color: white;
+  text-align: left;
+  padding: 10px;
+  width: 80%;
+}
+.banner .banner1 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic {
+  width: 40%;
+  background-color: black;
+  width: 400px;
+  height: 500px;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.web .color {
+  color: orangered;
+}
+
+.value {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.value .value1 {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
+.value h3 {
+  text-align: center;
+  font-family: "bold";
+  color: black;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+.value button {
+  padding: 15px;
+  color: black;
+  background: transparent;
+  border: 1px solid orangered;
+  border-radius: 4px;
+}
+.value button:hover {
+  background-color: orangered;
+  color: white;
+  transition: 0.25s ease;
+}
+.value p {
+  justify-content: space-between;
+  text-align: center;
+  font-family: "regular";
+  font-size: 30px;
+}
+.value .value2 {
+  background-image: url("./pexels-tranmautritam-326502.jpg");
+  background-color: black;
+  background-blend-mode: overlay;
+}
+.value .value2.open {
+  position: relative;
+}
+.value .value2.open ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.value .value2.open ul p {
+  color: white;
+}
+.value .value2.open ul h5 {
+  color: black;
+}
+.value ul {
+  background-color: rgba(0, 0, 0, 0.577);
+  display: none;
+}
+.value ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.value ul li h5 {
+  font-size: 25px;
+  font-family: "regular";
+  padding-right: 60px;
+  color: white;
+}
+.value ul li p {
+  font-size: 20px;
+  font-family: "regular";
+  padding-left: 60px;
+  text-align: center;
+}
+.value ul li h3 {
+  font-family: "regular";
+  margin-top: 0;
+  color: white;
+}
+.value img {
+  display: flex;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.skill {
+  display: flex;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.skill .skills h3 {
+  font-family: "bold";
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-size: 50px;
+}
+.skill .set {
+  display: flex;
+  align-items: center;
+}
+.skill .set .item {
+  box-shadow: 2px -2px 7px rgba(195, 79, 37, 0.928);
+  padding: 20px;
+  margin-top: 40px;
+}
+.skill .set .item:not(:last-child) {
+  margin-right: 20px;
+}
+.skill .set h3 {
+  margin-top: 30px;
+  font-family: "bold";
+}
+
+.my {
+  display: flex;
+  padding: 100px;
+}
+.my .pot1 img {
+  width: 600px;
+  height: 600px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.my .pot h5 {
+  font-family: "regular";
+  font-size: 15px;
+  color: orangered;
+}
+.my .pot h3 {
+  font-family: "bold";
+  justify-content: space-between;
+  font-size: 50px;
+}
+
+.talk {
+  background-color: black;
+  padding-bottom: 40px;
+}
+.talk .buz h3 {
+  color: orangered;
+  font-weight: "bold";
+  margin-top: 50opx;
+  justify-content: space-between;
+  font-size: 80px;
+}
+.talk .buz p {
+  color: white;
+  margin-top: 40px;
+}
+.talk .form-group {
+  margin-top: 50px;
+}
+.talk label {
+  color: white;
+}
+.talk input {
+  color: white;
+  background-color: rgb(45, 44, 44);
+  border: none;
+}
+.talk textarea {
+  background-color: rgb(40, 40, 40);
+  color: white;
+  border: none;
+}
+.talk button {
+  background-color: orangered;
+  margin-top: 60px;
+  border: none;
+  padding: 20px;
+  color: white;
+}
+
+.foot {
+  text-align: center;
+  align-items: center;
+}
+.foot .footer {
+  background-color: white;
+  justify-content: space-evenly;
+}
+.foot .footer h3 {
+  margin-top: 40px;
+  font-family: "bold";
+}
+.foot .footer img {
+  width: 15px;
+  margin-left: 10px;
+}
+.foot .links1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.foot .links2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.foot .links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.foot #copy {
+  color: red;
+}
+
+@media screen and (max-width: 576px) {
+  .banner h4 {
+    font-size: 30px;
+  }
+  .value h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .value p {
+    font-size: 15px;
+  }
+  .skill .set {
+    flex-wrap: wrap;
+  }
+  .skill .skills h3 {
+    font-size: 30px;
+  }
+  .skill .set h3 {
+    font-size: 20px;
+  }
+  .my {
+    padding: 10px;
+  }
+  .my .pot h3 {
+    font-size: 10px;
+  }
+  .my .pot1 img {
+    width: 100%;
+    height: auto;
+  }
+  .talk .buz h3 {
+    font-size: 30px;
+  }
+  .talk .buz p {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner p {
+    font-size: 15px;
+  }
+  .value h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .value p {
+    font-size: 15px;
+  }
+  .skill .set {
+    flex-wrap: wrap;
+  }
+  .skill .skills h3 {
+    font-size: 40px;
+  }
+  .my {
+    padding: 50px;
+  }
+  .my .pot h3 {
+    font-size: 40px;
+  }
+  .my .pot1 img {
+    width: 100%;
+    height: auto;
+  }
+  .talk .buz h3 {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

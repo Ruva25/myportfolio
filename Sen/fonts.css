@@ -1,0 +1,8 @@
+@font-face {
+    font-family:'regular' ;
+    src: url('/Sen/Sen-Regular.ttf');
+}
+@font-face{
+    font-family: bold;
+    src: url('/Sen/Sen-Bold.ttf');
+}
